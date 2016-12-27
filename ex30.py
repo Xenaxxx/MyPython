@@ -20,4 +20,9 @@ if people > buses:
     print "Alright, Let's just take the buses."
 else:
     print "Fine, Let's stay home then."
-    
+
+buses += 30
+if people < cars and cars < buses:
+    print "Obviously, We should take buses."
+else:
+    print "Anyway."
